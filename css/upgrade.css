@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    width:100%;
+    height:100vh;
+    background:rgb(17, 20, 53);
+    display: grid;
+    place-items: center;
+    
+}
+header{
+    position: relative;
+      width:100%;
+      height:100%;
+      display: flex;
+      flex-wrap: wrap;
+     /* overflow: hidden;*/
+      overflow: auto; 
+  }
+header .menu{
+    position: relative;
+    width: 100%;
+    height:16%;
+    background: rgb(17, 20, 53);
+    box-shadow:0px 3px 8px #090f1f;
+    margin:auto;
+   
+}
+header .menu nav{
+    position: relative;
+    width:100%;
+    height: 10%;
+    /*border:1px solid #fff;*/
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+header .menu nav .user{
+    position: relative;
+    width: 175px;
+    height:120px;
+  
+   }
+   header .menu nav .user img{
+    width: 165%;
+    height:100%;
+  
+   }
+   header .menu nav .user span{
+    position: relative;
+    margin-right:0px ;
+  
+  }
+  header .menu nav .name button{
+    width:130px;
+    height:30px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    cursor: pointer;
+    color:#090f1f;
+    font-weight: 600;
+    transition: .3s linear;
+   } 
+   header .menu nav .name button a{
+   text-decoration: none;
+   } 
+   header .menu nav .name button:hover{ 
+    background: none;
+    color:#36e2ec;
+ }
+ header .menu nav .name button:nth-child(2){ 
+   background: none;
+   color:#36e2ec;
+ }
+ header .menu nav .name button:nth-child(2):hover{ 
+   background:#36e2ec;
+   color:#090f1f;
+ }
+ header .menu nav .name h3{
+    color: #fff;
+    
+ }
+ header .card{
+    
+    background:rgb(4, 6, 33);
+    width: 100%;
+    height:60%;
+    margin:auto;
+    display: flex;
+    
+ 
+    flex-wrap: wrap;
+  
+    margin-top:-5px;
+ }
+ header .card h1{
+  color: #fff;
+   margin-left:600px;
+   margin-top: 10px;
+   
+ }
+ header .card .icons{
+    font-size:60px;
+    color:#fff;
+    align-items:center;
+    margin-top: -400px;
+    outline: none;
+    display:flex;
+    margin-bottom: -310px;
+ 
+ }
+ header .card .icons .bi{
+    /*cursor: pointer;*/
+    outline:none;
+    align-items:center;
+ }
+ header .card .icons span{
+   
+    margin-right:130px ;
+    margin-left:150px;
+   
+ }
+ header .card h3{
+    padding-top: 0;
+    font-size: 20px;
+    color:#36e2ec;
+    outline: none;
+    display:flex;
+    overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+
+ }
+ header .card h3 span{
+    margin-right:90px ;
+    margin-left:90px;
+ }
+header .card h1{
+    color: #fff;
+}
+ header .content{
+    background: rgb(17, 20, 53);
+    /*border:1px solid #fff;*/
+    width: 100%;
+    height:90%;
+    margin:auto;
+    display: flex;
+    
+ }
+ 
+ header .content .title{
+   position: absolute;
+ }
+ header .content .title h1{
+    color: #fff;
+   padding: 30px 0px 0px 600px;
+   font-size: 35px;
+  }
+ header .content .frame{
+    background:rgb(4, 6, 33);
+    /*border:1px solid #fff;*/
+    width: 20%;
+    height:80%;
+    margin:auto;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-bottom:-30px;
+    box-shadow:0px 3px 8px #090f1f;
+ }
+ header .content .frame h1{
+  color: #fff;
+  padding: 12px 0px 0px 20px;
+  font-size: 20px;
+  font-weight: 600px;
+ }
+ header .content .frame h3{
+    color: #fff;
+    padding: 60px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-left: -86px;
+   }
+   header .content .frame .line{
+    position: absolute;
+    width: 20%;
+    height: 2.5px;
+    bottom:-150px;
+    /*z-index: 0;*/
+    
+    
+    border-radius:20px;
+    background:#36e2ec;
+    transition:all .3s linear;
+    /*color: #fff;*/
+   }
+   header .content .frame .line ul{
+    color:#fff;
+    bottom:-300px;
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+   header .content .frame .line ul li{
+      padding: 20px 0px 20px 20px;
+      list-style:square;
+      list-style-position: outside;
+   }
+   header .content .frame .line button{
+    width:135px;
+    height:40px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    cursor: pointer;
+    color:#090f1f;
+    font-weight: 600;
+    transition: .3s linear;
+    margin-top: 60px;
+    margin-left: 84px;
+
+   }
+   header .content .frame .line button a{
+    text-decoration: none;
+    
+   }
+   header .content .frame .line button:hover{
+    background: none;
+    color:#36e2ec;
+   }
+
+
+ header .content .frame1{
+    background:rgb(4, 6, 33);
+    /*border:1px solid #fff;*/
+    width: 20%;
+    height:80%;
+    margin:auto;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-bottom:-30px;
+    box-shadow:0px 3px 8px #090f1f;
+ }
+
+ header .content .frame1 h1{
+    color: #fff;
+    padding: 12px 0px 0px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+   }
+   header .content .frame1 h3{
+      color: #fff;
+      padding: 60px 0px 0px 0px;
+      font-size: 15px;
+      font-weight: 600px;
+      margin-left: -86px;
+     }
+     header .content .frame1 .line{
+      position: absolute;
+      width: 20%;
+      height: 2.5px;
+      bottom:-150px;
+      /*z-index: 0;*/
+      
+      
+      border-radius:20px;
+      background:#36e2ec;
+      transition:all .3s linear;
+      /*color: #fff;*/
+     }
+     header .content .frame1 .line ul{
+      color:#fff;
+      bottom:-300px;
+      margin-left: 20px;
+      margin-top: 20px;
+     }
+     header .content .frame1 .line ul li{
+        padding: 20px 0px 20px 20px;
+        list-style:square;
+        list-style-position: outside;
+     }
+     header .content .frame1 .line button{
+      width:135px;
+      height:40px;
+      border: 2px solid #36e2ec;
+      outline: none;
+      border-radius: 20px;
+      background: #5adae0;
+      cursor: pointer;
+      color:#090f1f;
+      font-weight: 600;
+      transition: .3s linear;
+      margin-top: 60px;
+      margin-left: 84px;
+  
+     }
+     header .content .frame1 .line button a{
+      text-decoration: none;
+      
+     }
+     header .content .frame1 .line button:hover{
+      background: none;
+      color:#36e2ec;
+     }
+
+
+
+
+
+
+
+
+
+ header .content .frame2{
+    background:rgb(4, 6, 33);
+    /*border:1px solid #fff;*/
+    width: 20%;
+    height:80%;
+    margin:auto;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-bottom:-30px;
+    box-shadow:0px 3px 8px #090f1f;
+ }
+ header .content .frame2 h1{
+    color: #fff;
+    padding: 12px 0px 0px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+   }
+   header .content .frame2 h3{
+      color: #fff;
+      padding: 60px 0px 0px 0px;
+      font-size: 15px;
+      font-weight: 600px;
+      margin-left: -60px;
+     }
+     header .content .frame2 .line{
+      position: absolute;
+      width: 20%;
+      height: 2.5px;
+      bottom:-150px;
+      /*z-index: 0;*/
+      
+      
+      border-radius:20px;
+      background:#36e2ec;
+      transition:all .3s linear;
+      /*color: #fff;*/
+     }
+     header .content .frame2 .line ul{
+      color:#fff;
+      bottom:-300px;
+      margin-left: 20px;
+      margin-top: 20px;
+     }
+     header .content .frame2 .line ul li{
+        padding: 20px 0px 20px 20px;
+        list-style:square;
+        list-style-position: outside;
+     }
+     header .content .frame2 .line button{
+      width:135px;
+      height:40px;
+      border: 2px solid #36e2ec;
+      outline: none;
+      border-radius: 20px;
+      background: #5adae0;
+      cursor: pointer;
+      color:#090f1f;
+      font-weight: 600;
+      transition: .3s linear;
+      margin-top: 60px;
+      margin-left: 84px;
+  
+     }
+     header .content .frame2 .line button a{
+      text-decoration: none;
+      
+     }
+     header .content .frame2 .line button:hover{
+      background: none;
+      color:#36e2ec;
+     }
