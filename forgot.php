@@ -20,7 +20,7 @@ if (isset($_POST['forgot_password'])) {
        if ($updateResult) {
            $subject = 'Email Verification Code';
            $message = "Your verification code is $code. Use this code and reset your password.";
-           $sender = 'From: shwetakharade022002@gmail.com';
+           $sender = 'From: shwetakharade******@gmail.com';
 
            if (mail($email, $subject, $message, $sender)) {
                $message = "We've sent a verification code to your Email <br> $email";
